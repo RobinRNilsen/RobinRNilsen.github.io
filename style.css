@@ -1,16 +1,32 @@
 h1 {
   color: red;
+  border: 6px solid black;
+  width: fit-content;
 }
 
 h2 {
-  color: rgb(60, 150, 10);
+  color: red;
 }
 
 
 h3 {
-  color: blue;
+  color: rgb(60, 150, 10);
 }
 
 body {
-  background-color:orange
+  background-color: lightgray;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  padding: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  
 }
